@@ -65,7 +65,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/pplulee/appleid_auto/backend/b
 
 复制你的，例如上图http://172.17.0.3:4444
 
-改.env WEBDRIVER = http://172.17.0.3:4444
+改.env WEBDRIVER = http://172.17.0.3:4444 （如果前后端分开，则填入后端域名or ip）
 
 
 完工。进入appid.xxxxx.com添加个appid看webdrive正不正常即可。![c0ebaa7eb04bd5e4012e3b448b8ffff](https://github.com/ntgeralt/appleid_auto/assets/8230651/db8f1352-5ef4-4af0-a112-dd35d76e6750)
