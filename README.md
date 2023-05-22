@@ -73,4 +73,4 @@ bash <(curl -Ls https://raw.githubusercontent.com/pplulee/appleid_auto/backend/b
 
 完工。进入appid.xxxxx.com添加个appid看webdrive正不正常（不正常的话免费向日葵XD）。![c0ebaa7eb04bd5e4012e3b448b8ffff](https://github.com/ntgeralt/appleid_auto/assets/8230651/db8f1352-5ef4-4af0-a112-dd35d76e6750)
 
-理论上家里有群晖 树莓派软路由的，docker跑后端挺好，因为家宽干净。不断重置密码时触发苹果风控概率低一些。像甲骨文这种ip进入appleid.apple.com有时直接404 502
+理论上家里有群晖/树莓派/软路由等，docker跑后端挺好，因为家宽干净。不断重置密码时触发苹果风控概率低一些。像甲骨文这种ip进入appleid.apple.com有时直接404 502
