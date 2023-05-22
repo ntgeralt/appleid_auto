@@ -49,13 +49,14 @@ php think register 用户名 密码
 之后一键部署后端，这里要注意
 
 #一键脚本
+
 bash <(curl -Ls https://raw.githubusercontent.com/pplulee/appleid_auto/backend/backend/install_unblocker.sh)
 
 先输入域名appid.xxxxx.com
 
 然后输入API_KEY之前设置的7798hg98H7GT6
 
-然后一路按Y不要按回车。
+然后一路按Y不要回车缺省。
 
 ![536458fcb3c983da2394088878e8fa0](https://github.com/ntgeralt/appleid_auto/assets/8230651/404995e7-445e-411e-af28-f96b8d710c54)
 
