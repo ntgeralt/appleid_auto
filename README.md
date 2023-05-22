@@ -19,35 +19,54 @@
 - ……
 
 使用教程
+
 宝塔新建一个页面例如appid.xxxxx.com
+
 cd /www/wwwroot/appid.xxxxx.com
+
 git rclone https://github.com/ntgeralt/appleid_auto.git
+
 然后把文件剪贴到根目录
+
 修改配置文件.example.env名字改为.env
 
 跟这里，一路做下去
+
 https://appleid-auto.gitbook.io/doc_zhcn/install/qian-duan-wang-zhan-an-zhuang
+
 有两个需要注意的。一个是
 API_KEY = 123456改成随机7798hg98H7GT6之类。为了docker后端网络对接准备
+
 一个是
 WEBDRIVER = http://localhost:4444
+
 要改成后端获得的IP地址（看）。
 
 最后一步在网站根目录下执行指令，创建管理员账户
+
 php think register 用户名 密码
 
 
 之后一键部署后端，这里要注意
+
 #一键脚本
 bash <(curl -Ls https://raw.githubusercontent.com/pplulee/appleid_auto/backend/backend/install_unblocker.sh)
+
 先输入域名appid.xxxxx.com
+
 然后输入API_KEY之前设置的7798hg98H7GT6
+
 然后一路按Y不要按回车。
 
 ![536458fcb3c983da2394088878e8fa0](https://github.com/ntgeralt/appleid_auto/assets/8230651/404995e7-445e-411e-af28-f96b8d710c54)
+
 最后进入ip:64000看获得的ip
+
 ![55b5495ea025c5102605b87b97dca5d](https://github.com/ntgeralt/appleid_auto/assets/8230651/b53070d3-f192-4e30-8042-6cc79beda3b0)
+
 复制你的，例如上图http://172.17.0.3:4444
+
 改.env WEBDRIVER = http://172.17.0.3:4444
+
 
 完工。进入appid.xxxxx.com添加个appid看webdrive正不正常即可。![c0ebaa7eb04bd5e4012e3b448b8ffff](https://github.com/ntgeralt/appleid_auto/assets/8230651/db8f1352-5ef4-4af0-a112-dd35d76e6750)
