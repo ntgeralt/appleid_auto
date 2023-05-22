@@ -36,12 +36,10 @@ git rclone https://github.com/ntgeralt/appleid_auto.git
 https://appleid-auto.gitbook.io/doc_zhcn/install/qian-duan-wang-zhan-an-zhuang
 
 有两个需要注意的。一个是
-API_KEY = 123456改成随机7798hg98H7GT6之类。为了docker后端网络对接准备
+API_KEY = 123456我们改成随机7798hg98H7GT6之类。为后端对接前端用
 
 一个是
-WEBDRIVER = http://localhost:4444
-
-要改成后端获得的IP地址（看倒数第二图）。
+WEBDRIVER = http://localhost:4444 必须要改成后端获得的IP地址（看倒数第二图）。
 
 最后一步在网站根目录下执行指令，创建管理员账户
 
