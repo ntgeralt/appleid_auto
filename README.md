@@ -18,15 +18,15 @@
 - 允许手动触发解锁
 - ……
 
-使用教程
+# 使用教程
 
-宝塔新建一个页面例如appid.xxxxx.com
+腾讯香港1H1G debian11 ，前后端一体。宝塔PHP7.4 +MYSQL5.6 新建一个页面例如appid.xxxxx.com
 
 cd /www/wwwroot/appid.xxxxx.com
 
 git rclone https://github.com/ntgeralt/appleid_auto.git
 
-然后把文件剪贴到根目录
+然后把文件剪贴到/www/wwwroot/appid.xxxxx.com根目录
 
 修改配置文件.example.env名字改为.env
 
